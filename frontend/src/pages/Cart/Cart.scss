@@ -1,0 +1,27 @@
+.cart {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  .checkout {
+    // padding: 15px;
+    margin: 50px 200px;
+    display: flex;
+    text-decoration: none;
+    button {
+      flex: auto;
+      padding: 10px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      background-color: #fe6152;
+      color: #e9ecef;
+      font-size: 32px;
+      transition: all 0.5s ease;
+      &:hover {
+        background-color: #cb4e42;
+      }
+    }
+  }
+}

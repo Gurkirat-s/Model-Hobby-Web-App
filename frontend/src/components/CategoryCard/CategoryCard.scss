@@ -1,0 +1,42 @@
+.category-card {
+  border-radius: 5%;
+  overflow: hidden;
+  max-width: 350px;
+  border: 1px solid gray;
+  transition: all 0.4s;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  position: relative;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #28353b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    h3 {
+      color: white;
+      font-size: 40px;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+@import '../../App.scss';
+
+.shipping {
+  margin: 50px 0;
+  .shipping-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+    .row {
+      width: 100%;
+      margin-bottom: 18px;
+
+      .input-wrap {
+        label {
+          font-size: 16px;
+          line-height: 24px;
+          color: #777;
+        }
+
+        input,
+        select {
+          width: 100%;
+
+          font-size: 24px;
+          color: $primary;
+          padding: 5px 0 5px 5px;
+          border: none;
+          border: 1px solid $primary;
+          border-radius: 5px;
+          &:focus {
+            border: none;
+            outline: 3px solid #feaaa2;
+          }
+        }
+      }
+      p {
+        color: red;
+      }
+    }
+  }
+
+  .title {
+    text-align: center;
+    margin: 0 auto;
+    color: $secondary;
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+
+  .submit-btn {
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    background-color: #fe6152;
+    color: #e9ecef;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 500;
+
+    &:hover {
+      background-color: #cb4e42;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[
+  { "id": 1, "name": "Motorcycles" },
+  { "id": 2, "name": "Classic Cars" },
+  { "id": 3, "name": "Trucks and Buses" },
+  { "id": 4, "name": "Vintage Cars" },
+  { "id": 5, "name": "Planes" },
+  { "id": 6, "name": "Ships" },
+  { "id": 7, "name": "Trains" }
+]

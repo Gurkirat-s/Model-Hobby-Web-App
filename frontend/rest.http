@@ -1,0 +1,21 @@
+POST http://localhost:4000/api/cart/update http/1.1
+content-type: application/json
+
+{
+  "id": "S18_1984",
+  "qty": 5
+}
+
+###
+
+POST http://localhost:4000/api/cart/update http/1.1
+content-type: application/json
+
+{
+  "id": "S18_3278",
+  "qty": 3
+}
+
+###
+
+GET http://localhost:4000/api/cart http/1.1
