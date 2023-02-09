@@ -4,7 +4,6 @@
 <div align="center">
     <img src="/frontend/public/images/logo-color2.png" alt="Logo" width="320" height="160">
 </div>
-<h1 align="center">Model Hobby</h1>
 <p align="center">An eCommerce Webapp</p>
 
 ## About This project
